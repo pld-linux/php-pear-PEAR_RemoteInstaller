@@ -47,7 +47,7 @@ In PEAR status of this package is: %{_status}.
 %description -l pl
 Pocz±tkowo czê¶æ instalatora PEAR 1.4.0, zdalna instalacja przy u¿yciu
 FTP, FTPS lub SFTP jest teraz w osobnym pakiecie. Pakiet ten dostarcza
-poleceñ "remote-install", "remote-upgrade", "remote-uinnstall" oraz
+polecenia "remote-install", "remote-upgrade", "remote-uinnstall" oraz
 "remote-upgrade-all" do g³ównej czê¶ci PEAR.
 
 Aby skorzystaæ z tej funkcjonalo¶ci, konieczne jest posiadanie pliku
@@ -59,7 +59,7 @@ rozpocz±æ, a w zmiennej remote_config powinna znajdowaæ siê pe³na
 - ftps://user:pass@ftp.example.com/path/to/pear.ini,
 - ssh2.sftp://user:pass@ftp.example.com/path/to/pear.ini"
 
-Gdy to bêdzie zrobionel, mo¿liwa jest instalacja/aktualizacja przy
+Gdy to bêdzie zrobione, mo¿liwa jest instalacja/aktualizacja przy
 u¿yciu poleceñ remote* tak jakby operacje przeprowadzane by³y na
 lokalnym repozytorium.
 
