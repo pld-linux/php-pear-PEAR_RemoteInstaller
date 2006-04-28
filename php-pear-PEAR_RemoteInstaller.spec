@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_RemoteInstaller
 
 Summary:	%{_pearname} - PEAR Remote installation plugin through FTP
-Summary(pl):	%{_pearname} - wtyczka zdalna instalacja PEAR poprzez FTP
+Summary(pl):	%{_pearname} - wtyczka do zdalnej instalacji PEAR poprzez FTP
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	1
@@ -24,7 +24,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_noautoreq	'pear(ssh2.*)'
 
 %description
-
 Originally part of the 1.4.0 new features, remote installation through
 FTP, FTPS and SFTP is now its own package. This package adds the
 commands "remote-install" "remote-upgrade" "remote-uninstall" and
@@ -49,7 +48,7 @@ FTP, FTPS lub SFTP jest teraz w osobnym pakiecie. Pakiet ten dostarcza
 polecenia "remote-install", "remote-upgrade", "remote-uinnstall" oraz
 "remote-upgrade-all" do g³ównej czê¶ci PEAR.
 
-Aby skorzystaæ z tej funkcjonalo¶ci, konieczne jest posiadanie pliku
+Aby skorzystaæ z tej funkcjonalno¶ci, konieczne jest posiadanie pliku
 konfiguracyjnego na zdalnym serwerze oraz mo¿liwo¶æ tworzenia i
 usuwania na nim plików. Polecenie "config-create" mo¿e byæ u¿yte, aby
 rozpocz±æ, a w zmiennej remote_config powinna znajdowaæ siê pe³na
