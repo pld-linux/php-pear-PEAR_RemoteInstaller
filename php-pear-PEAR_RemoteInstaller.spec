@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_RemoteInstaller
 
 Summary:	%{_pearname} - PEAR Remote installation plugin through FTP
-Summary(pl):	%{_pearname} - wtyczka do zdalnej instalacji PEAR poprzez FTP
+Summary(pl.UTF-8):   %{_pearname} - wtyczka do zdalnej instalacji PEAR poprzez FTP
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	1
@@ -43,23 +43,23 @@ commands as if they were local.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pocz±tkowo czê¶æ instalatora PEAR 1.4.0, zdalna instalacja przy u¿yciu
+%description -l pl.UTF-8
+PoczÄ…tkowo czÄ™Å›Ä‡ instalatora PEAR 1.4.0, zdalna instalacja przy uÅ¼yciu
 FTP, FTPS lub SFTP jest teraz w osobnym pakiecie. Pakiet ten dostarcza
 polecenia "remote-install", "remote-upgrade", "remote-uinnstall" oraz
-"remote-upgrade-all" do g³ównej czê¶ci PEAR.
+"remote-upgrade-all" do gÅ‚Ã³wnej czÄ™Å›ci PEAR.
 
-Aby skorzystaæ z tej funkcjonalno¶ci, konieczne jest posiadanie pliku
-konfiguracyjnego na zdalnym serwerze oraz mo¿liwo¶æ tworzenia i
-usuwania na nim plików. Polecenie "config-create" mo¿e byæ u¿yte, aby
-rozpocz±æ, a w zmiennej remote_config powinna znajdowaæ siê pe³na
-¶cie¿ka (URL), np:
+Aby skorzystaÄ‡ z tej funkcjonalnoÅ›ci, konieczne jest posiadanie pliku
+konfiguracyjnego na zdalnym serwerze oraz moÅ¼liwoÅ›Ä‡ tworzenia i
+usuwania na nim plikÃ³w. Polecenie "config-create" moÅ¼e byÄ‡ uÅ¼yte, aby
+rozpoczÄ…Ä‡, a w zmiennej remote_config powinna znajdowaÄ‡ siÄ™ peÅ‚na
+Å›cieÅ¼ka (URL), np:
 - ftp://ftp.example.com/path/to/pear.ini,
 - ftps://user:pass@ftp.example.com/path/to/pear.ini,
 - ssh2.sftp://user:pass@ftp.example.com/path/to/pear.ini"
 
-Gdy to bêdzie zrobione, mo¿liwa jest instalacja/aktualizacja przy
-u¿yciu poleceñ remote* tak jakby operacje przeprowadzane by³y na
+Gdy to bÄ™dzie zrobione, moÅ¼liwa jest instalacja/aktualizacja przy
+uÅ¼yciu poleceÅ„ remote* tak jakby operacje przeprowadzane byÅ‚y na
 lokalnym repozytorium.
 
 Ta klasa ma w PEAR status: %{_status}.
