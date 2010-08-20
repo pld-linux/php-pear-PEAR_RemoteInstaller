@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - PEAR Remote installation plugin through FTP
 Summary(pl.UTF-8):	%{_pearname} - wtyczka do zdalnej instalacji PEAR poprzez FTP
 Name:		php-pear-%{_pearname}
-Version:	0.3.0
-Release:	2
+Version:	0.3.1
+Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	689a05f91c6a292a3a8c0fccf3c95bf8
+# Source0-md5:	9b5921e24382b5c69b7de798572da006
 URL:		http://pear.php.net/package/PEAR_RemoteInstaller/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
