@@ -1,28 +1,23 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		PEAR
-%define		_subclass	RemoteInstaller
 %define		_status		alpha
 %define		_pearname	PEAR_RemoteInstaller
-
 Summary:	%{_pearname} - PEAR Remote installation plugin through FTP
 Summary(pl.UTF-8):	%{_pearname} - wtyczka do zdalnej instalacji PEAR poprzez FTP
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	9b5921e24382b5c69b7de798572da006
 URL:		http://pear.php.net/package/PEAR_RemoteInstaller/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.5.0-0.RC1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
-Requires:	php-pear-PEAR >= 1:1.4.3
+Suggests:	php-pecl-ssh2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noautoreq	'pear(ssh2.*)'
 
 %description
 Originally part of the 1.4.0 new features, remote installation through
